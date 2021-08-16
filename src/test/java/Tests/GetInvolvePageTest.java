@@ -40,7 +40,7 @@ public class GetInvolvePageTest {
 		pagetest.getHeaderExist(prop.getProperty("getheader"));
 	}
 
-	@Test
+	@Test(priority =1)
 	public void test2() {
 		pagetest.getTitle();
 	}
